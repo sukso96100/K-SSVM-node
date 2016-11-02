@@ -4,7 +4,11 @@ if(require('os').freemem()/(1024*1024*1024) < 486) {
 	process.exit(126)
 }
 
-// TODO: Intel® Xeon® Processor E7
-// TODO: 승마장
-// TODO: 독일 직통 광케이블
-console.error('아직 지원되지 않는 컴퓨터입니다.')
+console.error('독일 팔선녀회 중앙 서버로부터 실행 허가를 받는 중입니다. 잠시만 기다려주세요...')
+setTimeout(() => {
+	// TODO: Intel® Xeon® Processor E7
+	// TODO: 승마장
+	// TODO: 독일 직통 광케이블
+	console.error('아직 지원되지 않는 컴퓨터입니다.')
+}, 2.52e+7) // 7시간
+
