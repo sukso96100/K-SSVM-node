@@ -1,0 +1,22 @@
+{
+  "name": "k-ssvm",
+  "version": "1.0.0",
+  "description": "K-SSVM for nodejs",
+  "main": "index.js",
+  "bin": {
+    "ssvm": "index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/xnuk/K-SSVM-node.git"
+  },
+  "keywords": [
+    "Viseonsilse"
+  ],
+  "author": "Felis catus",
+  "license": "BSD-3-Clause",
+  "bugs": {
+    "url": "https://github.com/xnuk/K-SSVM-node/issues"
+  },
+  "homepage": "https://github.com/xnuk/K-SSVM-node#readme"
+}
