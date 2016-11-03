@@ -11,6 +11,7 @@
     "url": "git+https://github.com/xnuk/K-SSVM-node.git"
   },
   "keywords": [
+    "GNE",
     "Viseonsilse"
   ],
   "author": "Felis catus",
@@ -18,5 +19,8 @@
   "bugs": {
     "url": "https://github.com/xnuk/K-SSVM-node/issues"
   },
-  "homepage": "https://github.com/xnuk/K-SSVM-node#readme"
+  "homepage": "https://github.com/xnuk/K-SSVM-node#readme",
+  "dependencies": {
+    "systeminformation": "^3.7.1"
+  }
 }
