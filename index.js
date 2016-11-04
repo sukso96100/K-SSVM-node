@@ -13,7 +13,7 @@ function checkHardwareSpec(){
 
 	sysinfo.mem()
 		.then((data)=>{
-				return sysinfo.cpu()
+				//return sysinfo.cpu()
 			if(data.total/(1024*1024*1024) < 486){
 				blameYourParents(ram)
 			}else{
